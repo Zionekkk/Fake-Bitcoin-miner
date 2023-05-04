@@ -14,7 +14,7 @@ You can install them using pip, by running the following command:
 To run the program, simply execute the main.py file. You should see a prompt displaying "0x1caf8e2d329e89d78437494c256bf293ee9a381c > 0.00 BTC ($0.00)". The program will automatically log transactions/wallets and display the current balance. To stop the program, press Control + C.
 
 ## Known Issues
-- Program may crash if bal.txt file is empty
+- ~Program may crash if bal.txt file is empty~
 - Delay at exit if the user mines for a long time
 ## Future Improvements
 - Add GUI (Graphical User Interface) for better user experience
