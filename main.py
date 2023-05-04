@@ -3,6 +3,11 @@ import time
 import secrets
 from random import randint
 btcval = 28858.20
+try:
+  with open("bal.txt", "r") as file:
+    total_balance = float(file.read().strip())
+except ValueError:
+  total_balance = 0
 total_balance = float(open("bal.txt", "r").read().strip())
 while True:
   with open("bal.txt", "w") as file:
